@@ -1,0 +1,16 @@
+.offices-table {
+  width: min(90%, 800px);
+  margin: 1.25rem auto;
+  border-collapse: collapse;
+}
+
+.offices-table th,
+.offices-table td {
+  border: 1px solid var(--text);
+  padding: 0.65rem;
+}
+
+.offices-table th {
+  color: var(--text-h);
+  background: var(--code-bg);
+}
